@@ -1,7 +1,12 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import List from "./list";
+
 
 ReactDOM.render(
-  <h1>test4</h1>,
+  <div>
+    <h1>It would appear that this is a form.</h1>
+    <List/>
+  </div>,
   document.getElementById("example")
 );
